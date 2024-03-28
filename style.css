@@ -1,0 +1,436 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: montserrat;
+  background-color: #000000;
+}
+
+/* NAVBAR */
+.wrapperNav {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  background-color: #000000;
+  position: fixed;
+  z-index: 1;
+  box-shadow: 0px 0px 4px 0px rgb(92, 151, 151), 0px 0px 4px 0px rgba(rgb(162, 187, 187)) inset;
+}
+
+.wrapperNav::before,
+.wrapperNav::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0 0 30px 0px rgb(0, 238, 255);
+  top: 0%;
+  bottom: 0;
+  left: -100px;
+  right: -100px;
+  border-radius: 10px / 10px;
+}
+
+/* nav.sticky .wrapper-nav .logo a {
+  color: #ffffff;
+} */
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  margin-left: 30px;
+  background-color: #000000;
+}
+
+.logo a {
+  color: white;
+}
+
+.logo a:hover {
+  text-decoration: underline;
+}
+
+.dots {
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  color: #fcee21;
+  margin-left: 0px;
+  background-color: #000000;
+}
+
+.dots a {
+  color: aqua;
+}
+
+.menu {
+  background-color: #000000;
+  float: right;
+  margin-right: 30px;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 60px;
+  position: relative;
+  position: -webkit-sticky;
+  top: 0;
+  font-weight: 600;
+  border-bottom: 1px #00ffff;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 0px 30px 0px 30px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: oklch(lightness chroma hue);
+  color: aqua;
+}
+
+/* Animated */
+/* a {
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+
+nav ul li a:after{
+  content: "";
+  position: absolute;
+  background-color: #fcee21;
+  height: 3px;
+  width: 100%;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+nav ul li a:hover:after{
+  width: 100%;
+} */
+/* Animated End */
+
+a.sign-in {
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 20px;
+  border-color: #fcee21;
+  border-style: solid;
+  border-width: 2px;
+  margin: 10px;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+  margin-left: 300px;
+}
+
+a.sign-in:hover {
+  border-color: aqua;
+  color: #fcee21;
+}
+
+a.sign-up {
+  color: #000000;
+  background-color: #fcee21;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+}
+
+a.sign-up:hover {
+  background-color: aqua;
+  color: black;
+}
+
+/* NAVBAR END */
+
+/* CONTAIN */
+.wrapper-2 {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  background-color: #000000;
+  margin-top: 140px;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.teks-1 {
+  margin: 50px 30px 50px 30px;
+}
+
+.hi-there {
+  color: #fcee21;
+  font-weight: 200;
+  font-size: 75px;
+  font-family: "Seaweed Script", cursive;
+  margin-bottom: -20px;
+}
+
+h2 {
+  font-weight: 600;
+  color: white;
+  margin: 5px 0px 5px 0px;
+}
+
+h3 {
+  font-weight: 300;
+  color: white;
+  margin: 10px 0px 5px 0px;
+}
+
+h4 {
+  font-weight: 300;
+  color: white;
+  margin: 20px 0px 5px 0px;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.pelajari a {
+  background-color: none;
+  border-style: solid;
+  border-color: #fcee21;
+  border-width: 3px;
+  color: #ffffff;
+  border-radius: 10px;
+  margin: 20px 0px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.pelajari a:hover {
+  background-color: aqua;
+  color: black;
+  border-color: black;
+  border-width: 1px;
+}
+
+.image-1 {
+  width: 45%;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+/* CONTENT 1 END */
+
+/* CONTAIN 2 */
+.wrapper-3 {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  background-color: #000000;
+  display: flex;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.image-2 {
+  width: 30%;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.teks-2 {
+  margin: 90px 50px 50px 30px;
+}
+
+.hello {
+  color: #fcee21;
+  font-weight: 200;
+  font-size: 80px;
+  font-family: "Seaweed Script", cursive;
+  margin-bottom: -30px;
+}
+
+h2 {
+  font-weight: 600;
+  color: white;
+  margin: 5px 0px 5px 0px;
+}
+
+h3 {
+  font-weight: 300;
+  color: white;
+  margin: 10px 0px 5px 0px;
+}
+
+h4 {
+  font-weight: 300;
+  color: white;
+  margin: 20px 0px 5px 0px;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.contact-me a {
+  background-color: none;
+  border-style: solid;
+  border-color: #fcee21;
+  border-width: 3px;
+  color: #ffffff;
+  border-radius: 10px;
+  margin: 20px 0px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.contact-me a:hover {
+  background-color: aqua;
+  color: black;
+  border-color: black;
+  border-width: 1px;
+}
+/* CONTAIN 2 END */
+
+/* CONTAIN 3 */
+.wrapper-4 {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  margin-top: 0px;
+}
+
+.wrapper-5 {
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 0px;
+  background-color: rgb(0, 0, 0);
+  padding-top: -50px;
+}
+
+.teks-3 {
+  margin: 90px 0px 50px 30px;
+  width: 1100px;
+  background-color: rgb(0, 0, 0);
+}
+
+.ngopi {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 80px;
+  width: 100%;
+}
+
+.teks-3 h2 {
+  font-weight: 700;
+  color: white;
+  margin: 0px 0px 5px 0px;
+  font-size: 80px;
+}
+
+.teks-3 h3 {
+  font-weight: 700;
+  color: white;
+  margin: 5px 0px 5px 0px;
+  font-size: 70px;
+}
+
+.teks-3 h4 {
+  font-weight: 600;
+  color: white;
+  margin: 20px 0px 5px 0px;
+  font-size: 30px;
+}
+
+.sosmed {
+  margin: 0;
+  display: flex;
+  margin-bottom: 50px;
+ justify-content: center;
+}
+
+.image-3 {
+  height: 180px;
+  width: 180px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.sosmed-img {
+  height: 150px;
+  width: auto;
+  margin-left: 0px;
+  margin-right: 50px;
+  margin-top: 15px;
+}
+
+.sosmed ul {
+  color: #ffffff;
+  list-style-type: none;
+  float: left;
+  margin-left: -30px;
+}
+
+.sosmed ul li {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.a {
+  padding-top: 15px;
+}
+
+.b {
+  padding-top: 17px;
+}
+
+.c {
+  padding-top: 17px;
+}
+
+.d {
+  padding-top: 17px;
+}
+/* CONTENT 3 END */
+
+/* #copyright {
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+  margin-top: 50px;
+} */
